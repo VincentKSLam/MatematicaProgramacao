@@ -1,0 +1,15 @@
+perfil leitor ler
+perfil editor ler escrever
+perfil auditor ler exportar
+perfil admin ler escrever apagar exportar
+contido leitor editor = sim
+contido editor admin = sim
+contido admin editor = nao
+contido auditor editor = nao
+contido_proprio editor admin = sim
+contido editor editor = sim
+contido_proprio editor editor = nao
+usuario eva auditor = ler exportar
+pode eva escrever = nao
+usuario eva auditor editor = ler escrever exportar
+pode eva escrever = sim

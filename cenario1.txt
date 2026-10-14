@@ -1,0 +1,15 @@
+perfil leitor ler
+perfil editor ler escrever
+perfil auditor ler exportar
+perfil admin ler escrever apagar exportar
+usuario ana editor
+usuario bruno editor auditor
+usuario carla admin
+usuario davi
+pode ana apagar = nao
+pode ana escrever = sim
+permissoes bruno = ler escrever exportar
+permissoes davi = vazio
+pode davi ler = nao
+quem exportar = bruno carla
+quem apagar = carla

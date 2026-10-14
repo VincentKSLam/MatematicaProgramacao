@@ -1,0 +1,18 @@
+perfil leitor ler
+perfil editor ler escrever
+perfil suporte escrever ler ler = ler escrever
+perfil financeiro faturar pagar
+perfil convidado = vazio
+contido editor suporte = sim
+contido suporte editor = sim
+contido_proprio editor suporte = nao
+contido editor financeiro = nao
+contido financeiro editor = nao
+contido convidado editor = sim
+contido_proprio convidado editor = sim
+contido convidado convidado = sim
+contido_proprio convidado convidado = nao
+usuario fabio financeiro editor = faturar pagar ler escrever
+usuario gui convidado = vazio
+pode gui ler = nao
+quem ler = fabio
