@@ -150,7 +150,7 @@
 
        MOSTRAR-MENU.
            DISPLAY " "
-           DISPLAY "=== TEORIA DOS CONJUNTOS ==="
+           DISPLAY " TEORIA DOS CONJUNTOS "
            DISPLAY "1 - Informar conjunto A"
            DISPLAY "2 - Informar conjunto B"
            DISPLAY "3 - Informar universo U (apos A e B)"
@@ -685,7 +685,7 @@
 
        EXEMPLOS.
            DISPLAY " "
-           DISPLAY "######## EXEMPLOS DE EXECUCAO ########"
+           DISPLAY " EXEMPLOS DE EXECUCAO "
            DISPLAY "Aviso: A, B e U atuais serao substituidos."
            MOVE 0 TO CONF-OK
            MOVE 0 TO CONF-TOTAL
@@ -699,7 +699,7 @@
            DISPLAY "Conferencias esperado x obtido: "
                    FUNCTION TRIM(K-EDIT) " de "
                    FUNCTION TRIM(T-EDIT) " OK"
-           DISPLAY "######## FIM DOS EXEMPLOS ########".
+           DISPLAY " FIM DOS EXEMPLOS ".
 
        PAUSAR.
            DISPLAY " "
@@ -713,7 +713,7 @@
 
        EXECUTAR-OPERACOES.
            DISPLAY " "
-           DISPLAY "--- Saida do programa ---"
+           DISPLAY " Saida do programa "
            PERFORM EXIBIR-TODOS
            PERFORM UNIAO
            MOVE 1 TO IDX-OP
@@ -775,7 +775,7 @@
 
        CENARIO-1.
            DISPLAY " "
-           DISPLAY "=== CENARIO 1: conjuntos comuns ==="
+           DISPLAY " CENARIO 1: conjuntos comuns "
            PERFORM CARREGAR-1
            PERFORM ESPERADO-1
            PERFORM EXECUTAR-OPERACOES
@@ -816,7 +816,7 @@
 
        CENARIO-2.
            DISPLAY " "
-           DISPLAY "=== CENARIO 2: conjunto vazio (A = {}) ==="
+           DISPLAY " CENARIO 2: conjunto vazio (A = {}) "
            PERFORM CARREGAR-2
            PERFORM ESPERADO-2
            PERFORM EXECUTAR-OPERACOES
@@ -852,7 +852,7 @@
 
        CENARIO-3.
            DISPLAY " "
-           DISPLAY "=== CENARIO 3: conjuntos disjuntos ==="
+           DISPLAY " CENARIO 3: conjuntos disjuntos "
            PERFORM CARREGAR-3
            PERFORM ESPERADO-3
            PERFORM EXECUTAR-OPERACOES
@@ -892,7 +892,7 @@
 
        CENARIO-4.
            DISPLAY " "
-           DISPLAY "=== CENARIO 4: iguais, com 0 e vazio ==="
+           DISPLAY " CENARIO 4: iguais, com 0 e vazio "
            PERFORM CARREGAR-4
            PERFORM ESPERADO-4
            PERFORM EXECUTAR-OPERACOES
